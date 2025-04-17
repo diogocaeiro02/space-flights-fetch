@@ -1,0 +1,42 @@
+.flights-list {
+  padding: 0;
+  list-style: none;
+}
+
+.flights-list li {
+  background-color: rgba(163, 160, 255, 0.71);
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  padding: 10px;
+  gap: 20px;
+}
+
+.flights-list li h2 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.flights-list li a {
+  background-color: rgba(163, 160, 255, 0.71);
+  margin-top: 10px;
+  color: rgb(2, 0, 62);
+  display: block;
+  text-decoration: none;
+}
+
+.flight-info {
+  display: flex;
+  align: center;
+}
+
+.flight-info img {
+  width: 120px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.flight-data {
+  flex: 1;
+}
